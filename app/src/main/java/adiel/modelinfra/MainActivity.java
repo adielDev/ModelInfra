@@ -17,7 +17,6 @@ import android.util.Log;
         import java.util.HashMap;
         import java.util.LinkedHashMap;
         import java.util.Map;
-        import java.util.logging.Level;
 
 public class MainActivity extends AppCompatActivity {
     Map<String,String> classMap;
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Log.isLoggable("d")
 
         ListView lv = (ListView) findViewById(R.id.lv);
         final String[] entries = getResources().getStringArray(R.array.mainlist);
