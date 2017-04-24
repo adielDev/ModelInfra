@@ -3,5 +3,6 @@
 
     <string-array name="mainlist">
         <item>SharedActivityModel</item>
+        <item>UsersListActivity</item>
     </string-array>
 </resources>

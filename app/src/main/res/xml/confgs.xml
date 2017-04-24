@@ -2,4 +2,5 @@
 
 <map linked="true">
     <entry key="SharedActivityModel">adiel.modelinfra.activities.SharedActivityModel</entry>
+    <entry key="UsersListActivity">adiel.modelinfra.activities.UsersListActivity</entry>
 </map>
