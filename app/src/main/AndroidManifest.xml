@@ -17,7 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.SharedActivityModel" />
-        <activity android:name=".activities.UsersListActivity"></activity>
+        <activity android:name=".activities.UsersListActivity" />
+        <activity android:name=".activities.UsersListFromContentProvider"></activity>
+
+
+        <provider
+            android:name=".mydata.UsersProvider"
+            android:authorities="adiel.modelinfra.users"
+            android:exported="false" />
     </application>
 
 </manifest>

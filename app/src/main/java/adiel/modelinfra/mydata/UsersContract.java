@@ -1,6 +1,7 @@
 package adiel.modelinfra.mydata;
 
 import android.net.Uri;
+import android.os.Environment;
 import android.provider.BaseColumns;
 
 public final class UsersContract {

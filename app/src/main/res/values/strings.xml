@@ -4,5 +4,6 @@
     <string-array name="mainlist">
         <item>SharedActivityModel</item>
         <item>UsersListActivity</item>
+        <item>UsersListFromContentProvider</item>
     </string-array>
 </resources>
