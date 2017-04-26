@@ -3,6 +3,7 @@
     package="adiel.modelinfra">
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,13 +19,14 @@
         </activity>
         <activity android:name=".activities.SharedActivityModel" />
         <activity android:name=".activities.UsersListActivity" />
-        <activity android:name=".activities.UsersListFromContentProvider"></activity>
-
+        <activity android:name=".activities.UsersListFromContentProvider" />
 
         <provider
             android:name=".mydata.UsersProvider"
             android:authorities="adiel.modelinfra.users"
             android:exported="false" />
+
+        <activity android:name=".activities.RealUserList"></activity>
     </application>
 
 </manifest>
